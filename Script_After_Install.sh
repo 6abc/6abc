@@ -1,4 +1,5 @@
 # wget https://raw.githubusercontent.com/6abc/6abc/main/Script_After_Install.sh
+# Works only if login as root
 # chmod +x Script_After_Install.sh
 # ./Script_After_Install.sh
 sudo apt update
