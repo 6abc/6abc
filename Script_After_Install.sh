@@ -1,11 +1,13 @@
+# wget https://raw.githubusercontent.com/6abc/6abc/main/Script_After_Install.sh
+# chmod +x Script_After_Install.sh
+# ./Script_After_Install.sh
 sudo apt update
 sudo apt upgrade -y
 timedatectl set-timezone Asia/Kolkata
 sudo apt install curl -y
 sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-
+echo -ne '\n' | sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt update
 sudo apt upgrade -y
 sudo apt install docker-ce docker-ce-cli containerd.io -y
@@ -21,3 +23,7 @@ docker run --detach \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     containrrr/watchtower
 docker run --name dozzle -d --volume=/var/run/docker.sock:/var/run/docker.sock -p 9000:8080 amir20/dozzle:latest
+
+
+# Visit : https://<YOUP IP>:2443/
+# Example https://10.0.0.8:2443/
