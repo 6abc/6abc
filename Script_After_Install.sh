@@ -23,7 +23,5 @@ docker run --detach \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     containrrr/watchtower
 docker run --name dozzle -d --volume=/var/run/docker.sock:/var/run/docker.sock -p 9000:8080 amir20/dozzle:latest
-
-
-# Visit : https://<YOUP IP>:2443/
-# Example https://10.0.0.8:2443/
+echo -e 'Visit : https://<IP ADD>:2443/ for Portainer(Docker UI Manager)\nExample https://10.0.0.8:2443/\nYour IP Address:\n'
+ip add | grep "inet " | awk -F'[/ ]+' '{ print $3 }'
