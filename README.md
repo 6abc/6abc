@@ -2,7 +2,7 @@
 - 👀 I do Full Stack Development with Secure Deployment
 - 🌱 I’m currently learning Kubernates
 - 💞️ I’m looking to collaborate on AI and ML
-- 📫 How to reach me paulisevil1@gmail.com
+- 📫 How to reach me ashisht.web@gmail.com
 
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=6abc)](https://github.com/6abc/github-readme-stats)
