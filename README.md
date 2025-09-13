@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @6abc from Data Monitoring IT Department 
+- 👋 Hi, I’m Ashish Thakur from Data Monitoring IT Department 
 - 👀 I do Full Stack Development with Secure Deployment
 - 🌱 I’m currently learning Kubernates
 - 💞️ I’m looking to collaborate on AI and ML
